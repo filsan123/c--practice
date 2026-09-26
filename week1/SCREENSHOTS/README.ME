@@ -1,0 +1,59 @@
+
+Topics
+
+1.1 Objects
+
+1.2 The Program Development Process
+
+1.8 Getting Started with Visual Studio
+
+2.1 Getting Started with Forms and Controls
+
+2.2 Creating the G U I for Your First Visual C# Application
+
+2.3 Introduction to C# code
+
+2.4 Writing Code for the Hello World Application
+
+2.5 Label Controls
+
+2.6 Making Sense of IntelliSense
+
+2.7 PictureBox Controls
+
+2.8 Comments, Blank Lines, and Indentation
+
+2.9 Writing the Code to Close an Application’s Form
+
+2.10 Dealing with Syntax Errors
+
+ som explanations
+ GUI Controls and Classes OverviewGraphical User Interface (GUI) programming involves interactive visual elements and background service components that allow users to communicate with an application efficiently. This document outlines the fundamental concepts of GUI controls and classes based on your study material.1. 
+ What are GUI Controls?GUI Controls (often referred to as widgets or components) are objects created within a software application to allow user interaction, input handling, and data display. They serve as the bridge between human actions and backend code execution.A. 
+ Visible ControlsVisible controls are user-interface components rendered directly on the application screen during runtime.Labels:
+  Used primarily to display read-only text, 
+  instructions, or information on the interface. 
+  Users cannot edit label text directly.
+  Buttons: Clickable components designed to trigger specific events, actions, or function calls (e.g., Submit, Cancel, Save) when pressed.TextBoxes: Interactive input fields that accept text data entered by the user (e.g., username, age, search terms).B. Invisible ControlsInvisible controls operate entirely in the background without rendering a persistent graphical presence on the main interface layout during application runtime.Timers: Non-visual components that execute specified code blocks repeatedly at defined time intervals (e.g., triggering updates, periodic data checks, clock mechanisms).OpenFileDialog: A standardized dialog box component that prompts users to browse, select, and open files from their local storage system only when explicitly invoked.2. Understanding Classes in GUI DevelopmentEvery control used in a GUI is fundamentally an Object generated from a Class.Class: A blueprint, template, or custom data type written in code that defines the properties (attributes like color, size, text) and methods (behaviors like click events, hide, show) of a component.Object / Instance: The actual concrete entity instantiated from a class into the active application program. For instance, SubmitButton is a specific object created from the generic Button class.Summary TableControl / TermVisibilityCategoryPrimary FunctionLabelVisibleUser InterfaceDisplay static or dynamic read-only textButtonVisibleUser InterfaceTrigger an event or method call upon clickTextBoxVisibleUser InputCapture user-entered textual dataTimerInvisibleBackground ServiceExecute actions periodically based on set time intervalsOpenFileDialogInvisibleSystem ServiceProvide file-selection navigation dialogsClassN/ACode StructureDefine properties, 
+  methods, and templates for controls
+  PictureBox Controls
+
+A PictureBox control displays a graphic image on a form
+
+Commonly used properties are:
+
+Image: specifies the image that it will display
+
+SizeMode: specifies how the control’s image is to be
+displayed
+
+Visible: determines whether the control is visible on
+the form at run time
+
+Creating Clickable Images
+
+You can double click the PictureBox control in the Designer to
+create a Click event handler and then add your codes to it. For
+example,
+
+And
