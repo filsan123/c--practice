@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment form1.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment_form1.Form1.resources
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment_form1.Properties.Resources.resources
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment form1.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment form1.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\asignment form1\asignment form1\bin\Debug\asignment form1.exe.config
+C:\Users\hp\Desktop\asignment form1\asignment form1\bin\Debug\asignment form1.exe
+C:\Users\hp\Desktop\asignment form1\asignment form1\bin\Debug\asignment form1.pdb
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment form1.exe
+C:\Users\hp\Desktop\asignment form1\asignment form1\obj\Debug\asignment form1.pdb
