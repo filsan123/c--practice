@@ -1,0 +1,11 @@
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\bin\Debug\Electricity Calculator.exe.config
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\bin\Debug\Electricity Calculator.exe
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\bin\Debug\Electricity Calculator.pdb
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity Calculator.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity_Calculator.Form1.resources
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity_Calculator.Properties.Resources.resources
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity Calculator.csproj.GenerateResource.cache
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity Calculator.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity Calculator.exe
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity Calculator.pdb
+C:\Users\hp\Documents\C####-PRACTICE\c--practice\Electricity Calculator\Electricity Calculator\obj\Debug\Electricity Calculator.exe.config

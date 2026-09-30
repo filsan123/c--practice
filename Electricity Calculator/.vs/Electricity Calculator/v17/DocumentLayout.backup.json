@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\C####-PRACTICE\\c--practice\\Electricity Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3640BC-E227-4B6A-A24C-E3FEB1AD9E65}|Electricity Calculator\\Electricity Calculator.csproj|c:\\users\\hp\\documents\\c####-practice\\c--practice\\electricity calculator\\electricity calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE3640BC-E227-4B6A-A24C-E3FEB1AD9E65}|Electricity Calculator\\Electricity Calculator.csproj|solutionrelative:electricity calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3640BC-E227-4B6A-A24C-E3FEB1AD9E65}|Electricity Calculator\\Electricity Calculator.csproj|c:\\users\\hp\\documents\\c####-practice\\c--practice\\electricity calculator\\electricity calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3640BC-E227-4B6A-A24C-E3FEB1AD9E65}|Electricity Calculator\\Electricity Calculator.csproj|solutionrelative:electricity calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\C####-PRACTICE\\c--practice\\Electricity Calculator\\Electricity Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Electricity Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\C####-PRACTICE\\c--practice\\Electricity Calculator\\Electricity Calculator\\Form1.cs",
+              "RelativeToolTip": "Electricity Calculator\\Form1.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAjwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:29:53.855Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\C####-PRACTICE\\c--practice\\Electricity Calculator\\Electricity Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Electricity Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\C####-PRACTICE\\c--practice\\Electricity Calculator\\Electricity Calculator\\Form1.cs [Design]",
+              "RelativeToolTip": "Electricity Calculator\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:22:28.736Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
