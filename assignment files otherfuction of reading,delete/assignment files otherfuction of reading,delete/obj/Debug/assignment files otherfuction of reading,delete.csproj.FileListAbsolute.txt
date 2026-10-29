@@ -1,0 +1,11 @@
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment files otherfuction of reading,delete.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment_files_otherfuction_of_reading_delete.Properties.Resources.resources
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment files otherfuction of reading,delete.csproj.GenerateResource.cache
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment files otherfuction of reading,delete.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\bin\Debug\assignment files otherfuction of reading,delete.exe.config
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\bin\Debug\assignment files otherfuction of reading,delete.exe
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\bin\Debug\assignment files otherfuction of reading,delete.pdb
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment_files_otherfuction_of_reading_delete.Form1.resources
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment files otherfuction of reading,delete.exe
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment files otherfuction of reading,delete.pdb
+C:\Users\hp\Documents\C####-PRACTICE\assignment files otherfuction of reading,delete\assignment files otherfuction of reading,delete\obj\Debug\assignment files otherfuction of reading,delete.exe.config
