@@ -1,0 +1,11 @@
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment colories and fat.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment_calories_and_fat.Form1.resources
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment_colories_and_fat.Properties.Resources.resources
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment colories and fat.csproj.GenerateResource.cache
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment colories and fat.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\bin\Debug\asigment colories and fat.exe.config
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\bin\Debug\asigment colories and fat.exe
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\bin\Debug\asigment colories and fat.pdb
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment colories and fat.exe
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment colories and fat.pdb
+C:\Users\hp\Documents\C####-PRACTICE\asigment colories and fat\asigment colories and fat\obj\Debug\asigment colories and fat.exe.config
