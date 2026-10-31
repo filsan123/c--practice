@@ -1,0 +1,36 @@
+📸 Screenshots & Step-by-Step Code ExplanationThis section
+ provides a detailed step-by-step breakdown 
+ of the source code implemented in the Room Booking System 
+ application, categorized by the logic shown in each program 
+ screen.Step 1: Getting Inputs and Variable DeclarationImage 
+ Reference: Screenshot 2026-10-30 132304.png / 132733.png  
+  What it does:Retrieves the guest's name from 
+  the input text box (txtguestname).  
+   Declares necessary numeric variables (age, nights, guests).
+      Uses int.TryParse to safely convert string inputs from text boxes into integers (isAgeValid, 
+      isNightsValid, isGuestsValid) without causing runtime conversion exceptions. 
+        Validates that the guest name field is not empty or filled with whitespace using string.
+        IsNullOrWhiteSpace, 
+        displaying an error message box if invalid.
+           Step 2: Input Validation Rules (Age, Nights,
+            and Guests)Image Reference: Screenshot 2026-10-30 134352.png  
+             What it does:Validates the guest's age to ensure it falls within the permitted range (between 18 and 90).
+             Validates the duration of stay (nights) to ensure 
+             it ranges 
+between 1 and 30 nights.  
+ Validates the number of guests to ensure it is between 1 
+ and 6.
+    Checks whether a room type radio button has been
+     selected using logical NOT (!) and AND (&&) operators (!radiostand.Checked && !radionnormal.Checked && !radiohight.Checked), prompting an error if no selection is made. 
+       Step 3: Room Type Selection and Capacity ManagementImage Reference: Screenshot 2026-10-30 134425.png & 132936.png  
+        What it does:Initializes room variables (roomType, rate,
+         maxCapacity).   Uses an if-else-if decision structure to identify which room radio button is checked (radiostand, radionnormal,
+          or radiohight).   Assigns the corresponding room name, 
+          nightly rate, and maximum guest capacity based on the user's selection.  
+           Step 4: Cost Calculation and ListBox Summary DisplayImage Reference: Screenshot 2026-10-30 134650.jpg  
+            What it does:Calculates the final booking cost by adding subtotals and service surcharges (double finalCost = subtotal + serviceSurcharge;).
+               Populates the bookingdetails ListBox with a structured summary of the transaction.  
+                Displays guest credentials, selected room type, approval status, nightly rates, 
+                base costs, senior discounts, breakfast
+                 additions, service fees, and the ultimate FINAL 
+COST formatted to two decimal places (ToString("F2")).

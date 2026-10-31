@@ -1,0 +1,11 @@
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\bin\Debug\asignment filespart2.exe.config
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\bin\Debug\asignment filespart2.exe
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\bin\Debug\asignment filespart2.pdb
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment filespart2.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment_filespart2.Form1.resources
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment_filespart2.Properties.Resources.resources
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment filespart2.csproj.GenerateResource.cache
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment filespart2.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment filespart2.exe
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment filespart2.pdb
+C:\Users\hp\Documents\C####-PRACTICE\asignment filespart2\asignment filespart2\obj\Debug\asignment filespart2.exe.config
