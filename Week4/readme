@@ -1,0 +1,88 @@
+# C# Control Structures: Loops & Practical Applications (Week 4)
+
+## 📌 Project Overview
+This repository contains C# Windows Forms implementations focusing on **Control Structures (Loops)** and **Random Numbers**, based on Chapter 4 of *Starting Out with Visual C#* by Tony Gaddis. 
+
+The project covers basic standard syntax examples as well as practical, real-world assignment applications including the **Ending Balance Calculator** and the **Squares Generator**.
+
+---
+
+## 🔁 Part 1: Standard Loop Examples (Core Concepts)
+
+### 1. `for` Loop (Definite Iteration)
+Used when the exact number of iterations is known beforehand. It initializes a counter, checks a condition, and updates the counter in each iteration.
+
+```csharp
+// Example: Displaying numbers 1 to 5 using a for loop
+for (int i = 1; i <= 5; i++)
+{
+    MessageBox.Show("Tiro: " + i);
+}
+2. while Loop (Pretest Loop)
+Tests its Boolean condition before executing the code block. If the condition evaluates to false initially, the loop will not execute at all.
+
+
+C#
+// Example: Counting to 5 using a while loop
+int count = 1;
+while (count <= 5)
+{
+    MessageBox.Show("Nambarka: " + count);
+    count++; // Increment counter to prevent infinite loop
+}
+3. do-while Loop (Posttest Loop)
+Executes its statement block at least once before evaluating the Boolean expression at the end.
+
+
+C#
+// Example: Using a do-while loop
+int number = 1;
+do
+{
+    MessageBox.Show("Qiimaha: " + number);
+    number++;
+} while (number <= 5);
+
+Part 2: Practical Assignment Applications
+1. Ending Balance Application (while Loop Assignment)
+Calculates monthly interest accumulation over a user-defined period and displays detailed line items inside a ListBox.
+
+Key Logic:
+
+C#
+private void calculateButton_Click(object sender, EventArgs e)
+{
+    try
+    {
+        decimal balance = decimal.Parse(startingBalTextBox.Text);
+        int months = int.Parse(monthsTextBox.Text);
+        const decimal INTEREST_RATE = 0.005m;
+
+        int count = 1;
+        detailListBox.Items.Clear();
+
+        while (count <= months)
+        {
+            balance = balance + (INTEREST_RATE * balance);
+            detailListBox.Items.Add("The ending balance for month " + count + " is " + balance.ToString("c"));
+            count++;
+        }
+
+        endingBalanceLabel.Text = balance.ToString("c");
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show("Invalid input: " + ex.Message);
+    }
+}
+
+2. Squares Application (for Loop Assignment)Calculates and displays the square value ($i \times i$) for integers from 1 to 10 in a sequential ListBox.Key Logic:C#private void goButton_Click(object sender, EventArgs e)
+{
+    outputListBox.Items.Clear();
+
+    for (int i = 1; i <= 10; i++)
+    {
+        int square = i * i;
+        outputListBox.Items.Add("The square of " + i + " is " + square);
+    }
+}

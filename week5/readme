@@ -1,0 +1,106 @@
+# C# File Handling Operations & Dialog Controls (Week 5 / Chapter 4)
+
+## 📌 Project Overview
+This repository contains practical C# Windows Forms implementations focusing on **File Handling** and **Dialog Controls**, based on Chapter 4 of *Starting Out with Visual C#* by Tony Gaddis. 
+
+The project demonstrates how to safely write data without overwriting history, read files line-by-line using streaming loops, and use native Windows dialog boxes (`OpenFileDialog`) to select and load files dynamically.
+
+---
+
+## 🛠️ File Handling Examples & Implementation Guide
+
+### Example 1: Safe File Writing (`StreamWriter` & `AppendText`)
+* **How it works:** This function creates or opens a text file using `File.AppendText()`. Unlike `CreateText()` which erases existing data, `AppendText` preserves prior history and adds new entries on a fresh line.
+* **Code Implementation:**
+  ```csharp
+  private void btnWrite_Click(object sender, EventArgs e)
+  {
+      try
+      {
+          // Opens the file in append mode to preserve old records
+          StreamWriter outputFile = File.AppendText("students.txt");
+
+          outputFile.WriteLine("Fathi Isse Mohamed");
+          outputFile.WriteLine("Computer Science Student");
+          
+          outputFile.Close();
+
+          MessageBox.Show("Xogta si guul leh ayaa loo qoray!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+      }
+      catch (Exception ex)
+      {
+          MessageBox.Show("Khalad ayaa dhacay: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+      }
+  }
+
+
+  example 2: Line-by-Line File Reading (StreamReader & EndOfStream)
+How it works: This function uses a StreamReader combined with an EndOfStream loop (while (!inputFile.EndOfStream)) to read text data line-by-line and populate a ListBox dynamically[cite: 1].
+
+Code Implementation:
+
+C#
+private void btnRead_Click(object sender, EventArgs e)
+{
+    try
+    {
+        lstOutput.Items.Clear();
+
+        if (File.Exists("students.txt"))
+        {
+            StreamReader inputFile = File.OpenText("students.txt");
+
+            // Loop through the stream until the end of the file is reached
+            while (!inputFile.EndOfStream)
+            {
+                string line = inputFile.ReadLine();
+                lstOutput.Items.Add(line);
+            }
+
+            inputFile.Close();
+        }
+        else
+        {
+            MessageBox.Show("Faylku ma jiro!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show("Khalad ayaa dhacay: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    }
+}
+
+Example 3: Graphical File Selection (OpenFileDialog Control)
+How it works: Utilizes the invisible OpenFileDialog control to display standard Windows file browsing boxes. It checks if the user clicked DialogResult.OK, retrieves the file path via .Filename, and reads its contents[cite: 1].
+
+Code Implementation:
+
+C#
+private void btnOpenFile_Click(object sender, EventArgs e)
+{
+    try
+    {
+        OpenFileDialog openFileDialog1 = new OpenFileDialog();
+        openFileDialog1.InitialDirectory = @"C:\";
+        openFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+
+        if (openFileDialog1.ShowDialog() == DialogResult.OK)
+        {
+            StreamReader reader = File.OpenText(openFileDialog1.FileName);
+            lstOutput.Items.Clear();
+
+            while (!reader.EndOfStream)
+            {
+                string line = reader.ReadLine();
+                lstOutput.Items.Add(line);
+            }
+
+            reader.Close();
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show("Khalad ayaa dhacay: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    }
+}
+
